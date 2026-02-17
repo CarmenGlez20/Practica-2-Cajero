@@ -1,4 +1,7 @@
+package Views;
 import java.util.Scanner;
+
+import Controllers.CajeroController;
 
 public class CajeroView {
     private Scanner scanner = new Scanner(System.in);

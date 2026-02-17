@@ -5,13 +5,11 @@ import java.util.List;
 import Models.Usuario;
 
 public class CajeroController {
-    // Uso de Estructuras de Datos y Genéricos (List<Usuario>)
     private List<Usuario> listaUsuarios;
     private Usuario usuarioSesion;
 
     public CajeroController() {
         listaUsuarios = new ArrayList<>();
-        // Inicializamos datos (simulando una base de datos)
         listaUsuarios.add(new Usuario("1234", "Juan", 1000.0));
         listaUsuarios.add(new Usuario("5678", "Maria", 2500.0));
     }

@@ -10,7 +10,7 @@ public class Usuario {
         this.saldo = saldo;
     }
 
-    // Getters y Setters
+  
     public String getPin() { return pin; }
     public String getNombre() { return nombre; }
     public double getSaldo() { return saldo; }
